@@ -1,10 +1,35 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Start Page</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>FANTNO</title>
+    <meta name="description" content="FANTNO">
+    <meta name="VidyPie" content="Advertisement">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="load()">
+  <script src="script.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <div class="header">
+  	    <div class="navbar">
+  		    <img src="resources/logo.png" class="logo">
+  		    <div id="logoutBtn" class="mybtn noselect" onclick="logout()">
+  			    <p>Logg ut</p>
+  		    </div>
+  		    <div id="loginBtn" class="mybtn noselect" onclick="openLogin()">
+  			    <p>Logg inn</p>
+  		    </div>
+  		    <div id="newBtn" class="mybtn noselect" onclick="newAdvert()">
+  			    <p>Opprett annonse</p>
+  		    </div>
+  		    <div id="userBtn" class="mybtn noselect" onclick="newUser()">
+  			    <p>Opprett bruker</p>
+  		    </div>
+  	    </div>
+    </div>
+    <div id="content">
+    </div>
+</body>
 </html>

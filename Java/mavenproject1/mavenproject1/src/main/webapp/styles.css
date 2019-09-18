@@ -1,0 +1,199 @@
+body {
+  	margin: 0;
+  	padding: 0;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.header {
+	height: 50px;
+	width: 100%; 
+   	width: 100vw;
+   	position: fixed;
+   	border-bottom: 1px solid #ddd;
+   	display: inline-block;
+}
+
+.navbar {
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo {
+	height: 30px;
+	margin-top: 10px;
+}
+
+.mybtn {
+	height: 47px;
+	float: right;
+	padding-right: 20px;
+	padding-left: 20pX;
+	cursor: pointer;
+}
+
+.mybtn p {
+	padding-top: 6px;
+	color: #474445;
+	font: 12px Arial, Helvetica, sans-serif;
+}
+
+.mybtn:hover {
+	border-bottom: 3px solid #06befb;
+}
+
+.contentbox {
+    margin: 20px;
+    float: left;
+    border: 1px solid #06befb;
+}
+
+.contentbox img {
+    margin-left: 10px;
+}
+
+.contentbox:hover {
+    background-color: #9ee7ff;
+    cursor: pointer;
+}
+
+#content {
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+.loginBox {
+    position: absolute;
+    background-color: white;
+    border: 5px solid #06befb;
+    top: 50%;
+    left: 50%;
+    margin: -52px 0 0 -97px;
+    width: 194px;
+    height: 104px;
+    z-index: 100;
+}
+
+.userBox {
+    position: absolute;
+    background-color: white;
+    border: 5px solid #06befb;
+    top: 50%;
+    left: 50%;
+    margin: -82px 0 0 -97px;
+    width: 194px;
+    height: 164px;
+    z-index: 100;
+}
+
+.editBox {
+    position: absolute;
+    background-color: white;
+    border: 5px solid #06befb;
+    top: 50%;
+    left: 50%;
+    margin: -73px 0 0 -130px;
+    width: 260px;
+    height: 346px;
+    z-index: 100;
+}
+
+.showBox {
+    position: absolute;
+    background-color: white;
+    border: 5px solid #06befb;
+    top: 20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    overflow-y: scroll;
+    z-index: 100;
+}
+
+.showBox img {
+    margin-left: 10px;
+}
+
+.loginBox input {
+    margin: 10px 10px 0 10px;
+}
+
+.userBox input {
+    margin: 10px 10px 0 10px;
+}
+
+.editBox input {
+    margin: 10px 10px 0 10px;
+}
+
+.editBox textarea {
+    margin: 10px 10px 0 10px;
+    resize: none;
+}
+
+.title {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.stitle {
+    font-size: 30px;
+    margin: 10px;
+}
+
+.showTxt {
+    margin-left: 10px;
+}
+
+.postedBy {
+    opacity: 0.5;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.errortxt {
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.infotxt {
+    color: #06befb;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 50;
+}
+
+.modal:hover {
+    cursor: pointer;
+    opacity: 0.25;
+}
+#logoutBtn {
+    display: none;
+}
+
+#newBtn {
+    display: none; 
+}
+
